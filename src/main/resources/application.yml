@@ -1,0 +1,17 @@
+spring:
+  kafka:
+      bootstrap-servers: localhost:9092
+      group-id-private: private
+      group-id-group: group
+  application:
+    name: Kafka_WS_Demo
+  data:
+    mongodb:
+      username: root
+      password: password
+      host: localhost
+      port: 27017
+      database: test
+      authentication-database: admin
+
+
